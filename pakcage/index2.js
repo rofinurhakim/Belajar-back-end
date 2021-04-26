@@ -3,7 +3,7 @@ const http = require('http')
 
 
 const server = http.createServer(( req, res ) => {
-    res.write('<h1>WELCOME WORD hahha</h1>')
+    res.write('<h1>WELCOME WORD</h1>')
 
     res.end()
 })
