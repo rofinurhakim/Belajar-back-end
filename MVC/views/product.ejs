@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html leng="en"></html>
+<head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="description" content="">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>products</title>
+   </head>
+   <body>
+     
+       <!-- <%= data.length %> -->
+
+       <% for(var i = 0; i < data.length; i++) { %>
+            <h3><%= data[i].title %></h3>
+            <img src="<%= data[i].image %>" alt="" height="100">
+            <h5><%= data[i].price %></h5>
+            <p><%= data[i].description %></p>
+       <% } %>
+   </body>
+</html>
